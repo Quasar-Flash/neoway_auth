@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
   s.metadata["bug_tracker_uri"] = "https://github.com/Quasar-Flash/neoway-auth-ruby/issues"
 
   s.add_dependency             "faraday", "~> 1.4", ">= 1.0"
-  s.add_dependency             "flash_integration", "~> 0.1"
+  s.add_dependency             "flash_integration", ">= 0.1", "< 2.0"
   s.add_dependency             "i18n", "~> 1.8", ">= 1.0"
   s.add_dependency             "json", "~> 2.5", ">= 2.0"
 
