@@ -2,7 +2,7 @@ Neoway Auth's Library for Ruby
 ==============
 
 [![Gem Version](https://badge.fury.io/rb/neoway_auth.svg)](https://badge.fury.io/rb/neoway_auth)
-[![neoway_auth](https://github.com/Quasar-Flash/neoway_auth/actions/workflows/ruby.yml/badge.svg)](https://github.com/Quasar-Flash/neoway_auth/actions/workflows/ruby.yml)
+[![neoway_auth](https://github.com/Quasar-Flash/neoway_auth/actions/workflows/tests.yml/badge.svg)](https://github.com/Quasar-Flash/neoway_auth/actions/workflows/tests.yml)
 
 Dev Requirements
 -----------------
