@@ -23,7 +23,7 @@ Installation for Rails
 
 ```ruby
 # Add to the Gemfile
-gem "neoway_auth", "~> 0.1.0"
+gem "neoway_auth", "~> 1.0.0"
 ```
 
 Setting the Neoway configs - Rails Project
