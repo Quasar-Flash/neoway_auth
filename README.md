@@ -85,7 +85,7 @@ Problems?
 **Please do not directly email any committers with questions or problems.**
 A community is best served when discussions are held in public.
 
-Searching the [issues](https://github.com/Quasar-Flash/neoway-auth-ruby/issues)
+Searching the [issues](https://github.com/Quasar-Flash/neoway_auth/issues)
 for your problem is also a good idea.
 
 Contributing
@@ -107,7 +107,7 @@ isolate to its own commit so I can cherry-pick around it.
 License
 -----------------
 
-Please see [LICENSE](https://github.com/Quasar-Flash/neoway-auth-ruby/blob/master/LICENSE.txt)
+Please see [LICENSE](https://github.com/Quasar-Flash/neoway_auth/blob/master/LICENSE.txt)
 for licensing details.
 
 Authors
