@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/Quasar-Flash/neoway-auth-ruby"
   s.summary     = "Neoway Auth Library"
   s.description = "A library to use Neoway auth features"
-  s.required_ruby_version = ">= 3.0"
+  s.required_ruby_version = ">= 2.7"
   s.files = Dir["{lib}/**/*"] + ["LICENSE.txt", "Rakefile", "README.md", "CHANGELOG.md", ".version"]
   s.test_files = Dir["spec/**/*"]
   s.license = "MIT"
