@@ -12,8 +12,8 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/Quasar-Flash/neoway-auth-ruby"
   s.summary     = "Neoway Auth Library"
   s.description = "A library to use Neoway auth features"
-  s.required_ruby_version = ">= 2.5"
-  s.files = Dir["{lib}/**/*"] + ["LICENSE.txt", "Rakefile", "README.md", "CHANGELOG.md"]
+  s.required_ruby_version = ">= 3.0"
+  s.files = Dir["{lib}/**/*"] + ["LICENSE.txt", "Rakefile", "README.md", "CHANGELOG.md", ".version"]
   s.test_files = Dir["spec/**/*"]
   s.license = "MIT"
 
@@ -21,19 +21,18 @@ Gem::Specification.new do |s|
   s.metadata["source_code_uri"] = "https://github.com/Quasar-Flash/neoway-auth-ruby"
   s.metadata["bug_tracker_uri"] = "https://github.com/Quasar-Flash/neoway-auth-ruby/issues"
 
-  s.add_dependency             "faraday", ">= 1.4", "< 3.0"
-  s.add_dependency             "flash_integration", ">= 0.1", "< 2.0"
-  s.add_dependency             "i18n", "~> 1.8", ">= 1.0"
+  s.add_dependency             "flash_integration", "~> 1.0.0"
+  s.add_dependency             "i18n"
   s.add_dependency             "json", "~> 2.5", ">= 2.0"
 
   s.add_development_dependency "bundler", ">= 1.2"
-  s.add_development_dependency "factory_bot", "~> 6.2"
+  s.add_development_dependency "factory_bot", "~> 6.2.1"
   s.add_development_dependency "fuubar", "~> 2.5"
-  s.add_development_dependency "pry", "~> 0.14"
+  s.add_development_dependency "pry", "~> 0.14.1"
   s.add_development_dependency "rake", "~> 13.0", ">= 10.0.0"
-  s.add_development_dependency "rspec", "~> 3.10"
-  s.add_development_dependency "rubocop", "~> 1.18"
-  s.add_development_dependency "rubocop-packaging", "~> 0.5"
-  s.add_development_dependency "rubocop-performance", "~> 1.11"
-  s.add_development_dependency "simplecov", "~> 0.21"
+  s.add_development_dependency "rspec", "~> 3.12.0"
+  s.add_development_dependency "rubocop", "~> 1.48.0"
+  s.add_development_dependency "rubocop-packaging", "~> 0.5.2"
+  s.add_development_dependency "rubocop-performance", "~> 1.16.0"
+  s.add_development_dependency "simplecov", "~> 0.22.0"
 end
