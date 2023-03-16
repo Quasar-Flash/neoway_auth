@@ -1,0 +1,12 @@
+name: Deploy Production
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  Deploying:
+    uses: Quasar-Flash/workflow-dpl-action/.github/workflows/deployment-ruby-package.yml@master
+    with:
+      release: true
+    secrets: inherit
